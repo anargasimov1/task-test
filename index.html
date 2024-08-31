@@ -13,15 +13,30 @@
     <!-- Header -->
     <header>
         <div class="navbar">
-
             <nav>
-                <ul>
+                <div class="nav-hidden-rigth">
+                    <p class="logo">EVENTSLINK</p>
+                    <button id="menu">Menu <i class="fa-solid fa-bars"></i></button>
+                </div>
+
+
+                <ul class="navbar-left">
                     <li class="logo">EVENTSLINK</li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">About us</a></li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
             </nav>
+
+            <ul id="nav-hidden" class="navbar-hidden">
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <a href="#">EN</a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-regular fa-user"></i></a>
+            </ul>
+
             <div class="navbar-right">
                 <a href="#">EN</a>
                 <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
@@ -72,97 +87,31 @@
     <section class="events">
         <div class="events-info">
             <h2>Popular events near you</h2>
-            <h2>see all</h2>
+            <h2 style="color: red;">see all</h2>
         </div>
-        <div class="event-cards">
-            <div class="event-card">
-                <img src="https://c8.alamy.com/comp/2HE7RPT/happy-woman-choosing-and-buying-wine-in-supermarket-girl-with-shopping-basket-in-wine-department-of-store-2HE7RPT.jpg"
-                    alt="Art & Wine">
-                <div class="event-info">
-                    <h3>Art & Wine</h3>
-                    <p>Mon, Jul 21 • 4:00 PM</p>
-                    <p>$45</p>
-                </div>
-            </div>
-            <div class="event-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-P98MbQiPci3lzoa8svRHMF_DplY9gB6Vg&s"
-                    alt="Outdoor Yoga Session">
-                <div class="event-info">
-                    <h3>Outdoor Yoga Session</h3>
-                    <p>Mon, Jul 21 • 4:00 PM</p>
-                    <p>$15</p>
-                </div>
-            </div>
+        <div  class="event-cards">
 
-            <div class="event-card">
-                <img src="https://images.slurrp.com/prodrich_article/zudk0aexzz.webp?impolicy=slurrp-20210601&width=880&height=500"
-                    alt="food festival">
-                <div class="event-info">
-                    <h3>Food Truck Festival!</h3>
-                    <p>Mon, Jul 25 • 4:00 PM</p>
-                    <p>$15</p>
-                </div>
-            </div>
+        <div id="event-cards" class="event-card-slide">
 
-            <div class="event-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShGA2288VOhdyCvEYjiOKm4MvSgBsH8g5_uw&s"
-                    alt="dream">
-                <div class="event-info">
-                    <h3>Dream Fest</h3>
-                    <p>Mon, Jul 21 • 4:00 PM</p>
-                    <p>$15</p>
-                </div>
-            </div>
-            <!-- Additional event cards go here -->
         </div>
-        <button class="next"><i class="fa-solid fa-right-long"></i></button>
+
+        </div>
+        <button id="btn" class="next"><i class="fa-solid fa-right-long"></i></button>
     </section>
 
     <!-- Upcoming Events -->
     <section class="events">
-        <h2>Upcoming events</h2>
-        <div class="event-cards">
-            <div class="event-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPtydU9ZiwM5gCdryL2eKRTSO4EePYXnwGiA&s"
-                    alt="Outdoor Movie Night">
-                <div class="event-info">
-                    <h3>Outdoor Movie Night</h3>
-                    <p>Mon, Jul 21 • 4:00 PM</p>
-                    <p>$45</p>
-                </div>
-            </div>
+        <div class="events-info">
+            <h2>Upcoming events</h2>
+        </div>
+        <div  class="event-cards">
+            <div id="event-cards1" class="event-card-slide">
 
-            <div class="event-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPtydU9ZiwM5gCdryL2eKRTSO4EePYXnwGiA&s"
-                    alt="Outdoor Movie Night">
-                <div class="event-info">
-                    <h3>Outdoor Movie Night</h3>
-                    <p>Mon, Jul 21 • 4:00 PM</p>
-                    <p>$45</p>
-                </div>
-            </div>
+              
 
-            <div class="event-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPtydU9ZiwM5gCdryL2eKRTSO4EePYXnwGiA&s"
-                    alt="Outdoor Movie Night">
-                <div class="event-info">
-                    <h3>Outdoor Movie Night</h3>
-                    <p>Mon, Jul 21 • 4:00 PM</p>
-                    <p>$45</p>
-                </div>
-            </div>
-
-            <div class="event-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPtydU9ZiwM5gCdryL2eKRTSO4EePYXnwGiA&s"
-                    alt="Outdoor Movie Night">
-                <div class="event-info">
-                    <h3>Outdoor Movie Night</h3>
-                    <p>Mon, Jul 21 • 4:00 PM</p>
-                    <p>$45</p>
-                </div>
             </div>
         </div>
-        <button class="next"><i class="fa-solid fa-right-long"></i></button>
+        <button id="btn1" class="next"><i class="fa-solid fa-right-long"></i></button>
     </section>
 
     <!-- Popular Destinations -->
@@ -192,7 +141,7 @@
                     alt="Paris">
                 <p>London</p>
             </div>
-            <!-- Additional destinations go here -->
+
         </div>
     </section>
 
@@ -206,9 +155,12 @@
             <button>Sign up</button>
         </div>
         <div class="join-right">
-            <img src="https://media.istockphoto.com/id/972325634/vector/girls-chating-womens-rights-pink-vector-background.jpg?s=1024x1024&w=is&k=20&c=o4WklkAxDgXWRrT8H4Sdl3wf2ZzwHVhBR0qJdVpYPKw=" alt="">
+            <img src="https://media.istockphoto.com/id/972325634/vector/girls-chating-womens-rights-pink-vector-background.jpg?s=1024x1024&w=is&k=20&c=o4WklkAxDgXWRrT8H4Sdl3wf2ZzwHVhBR0qJdVpYPKw="
+                alt="">
         </div>
     </section>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>
