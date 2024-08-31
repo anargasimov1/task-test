@@ -128,7 +128,7 @@ function addElemnts() {
                 <div class="event-info">
                     <h3>${i.title}</h3>
                     <p>${i.date}</p>
-                    <p>${i.date}</p>
+                    <p>${i.prince}</p>
                     <p class="heart"><i class="fa-regular fa-heart"></i></p>
                 </div>
             </div>
