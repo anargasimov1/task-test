@@ -400,5 +400,6 @@ nav ul {
 
     .events-info {
         flex-direction: column;
+        align-items: center;
     }
 }
